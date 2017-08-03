@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-08-02T21:16:10.377Z</updated>
+  <updated>2017-08-03T19:51:46.781Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,14 +20,16 @@
     <link href="http://yoursite.com/2017/07/29/Forever-J/"/>
     <id>http://yoursite.com/2017/07/29/Forever-J/</id>
     <published>2017-07-28T19:11:38.000Z</published>
-    <updated>2017-08-02T21:16:10.377Z</updated>
+    <updated>2017-08-03T19:51:46.781Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello,World!"></a>Hello,World!</h2><p>This is my first post in my first personal blog.<br>It is awesome that using the code to create something and change the world.<br>I still have so much to learn.<br>So,make progress every day.<br><img src="/img/Jordi001.jpg" alt="Jordi001"></p>
+    <content type="html"><![CDATA[<p><img src="/img/Jordi001.jpg" alt="Jordi001"></p>
+<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello,World!"></a>Hello,World!<a id="more"></a></h2><p>This is my first post in my first personal blog.<br>It is awesome that using the code to create something and change the world.<br>I still have so much to learn.<br>So,make progress every day.</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot;Hello,World!&quot;&gt;&lt;/a&gt;Hello,World!&lt;/h2&gt;&lt;p&gt;This is my first post in my firs
+      &lt;p&gt;&lt;img src=&quot;/img/Jordi001.jpg&quot; alt=&quot;Jordi001&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot;Hello,World!&quot;&gt;&lt;/a&gt;Hello,World!
     
     </summary>
     
