@@ -11,10 +11,10 @@ keywords: "Hexo, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: false
+rss:
 
 # Specify the date when the site was setup
-since: 
+#since: 
 
 # icon between year and author @Footer
 authoricon: heart
@@ -33,11 +33,11 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 
 # ---------------------------------------------------------------
@@ -46,13 +46,14 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
-  about: /about/
+  home: / 
   archives: /archives/
   categories: /categories/
   tags: /tags/
+  about: /about/
+  #schedule: /schedule/
   #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  #commonweal: /404/
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -80,6 +81,7 @@ menu_icons:
 #scheme: Muse
 #scheme: Mist
 scheme: Pisces
+#scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -89,9 +91,13 @@ scheme: Pisces
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-social: 
-  GitHub: https://github.com/Forever-J
+social:
+  E-Mail: foreverj.2012@foxmil.com 
+  GitHub: https://github.com/Forever-J  
   Weibo: http://weibo.com/5485369276
+  Zhihu: https://www.zhihu.com/people/Forever-J/
+  Douban: https://www.douban.com/people/forever_j/
+  Jianshu: http://www.jianshu.com/users/2c22f0237a73/timeline
   #LinkLabel: Link
 
 # Social Links Icons
@@ -101,17 +107,29 @@ social:
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
   enable: true
+  icons_only: false
+  transition: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
+  E-Mail: envelope
+  Google: google
   Twitter: twitter
+  FB Page: facebook
+  VK Group: vk
+  Skype: skype
+  YouTube: youtube
+  Instagram: instagram
+  StackOverflow: stack-overflow
   Weibo: weibo
 
 # Blog rolls
 #links_title: Links
 #links_layout: block
 #links_layout: inline
-#links:
+links:
+  IIssNan's Notes: http://notes.iissnan.com/
+  DIYgod: https://www.anotherhome.net/
   #Title: http://example.com/
 
 # Sidebar Avatar
@@ -127,7 +145,7 @@ toc:
   number: true
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: false
+  wrap: true
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -152,17 +170,16 @@ sidebar:
 
   # Sidebar offset from top menubar in pixels.
   offset: 12
-  offset_float: 0
+  offset_float: 12
 
   # Back to top in sidebar
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button
   scrollpercent: false
   
   # Enable sidebar on narrow view
   onmobile: false
-
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -172,7 +189,7 @@ sidebar:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -204,9 +221,15 @@ post_wordcount:
   #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
   #description: ex. subscribe to my blog by scanning my public wechat account
 
+# Reward
+reward_comment: Donate comment here
+wechatpay: /images/wechatpay.jpg
+alipay: /images/alipay.jpg
+#bitcoin: /images/bitcoin.png
+
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
@@ -214,6 +237,12 @@ post_copyright:
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
+
+# Reduce padding / margin indents on devices with narrow width.
+mobile_layout_economy: false
+
+# Android Chrome header panel color ($black-deep).
+android_chrome_color: "#222"
 
 # Custom Logo.
 # !!Only available for Default Scheme currently.
@@ -223,7 +252,6 @@ post_copyright:
 custom_logo:
   enabled: false
   image:
-
 
 # Code Highlight theme
 # Available value:
@@ -296,7 +324,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: f9dee396cc2ae767313d9ea60afea2eb
+#baidu_analytics: f9dee396cc2ae767313d9ea60afea2eb
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -318,7 +346,7 @@ changyan:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
+youyan_uid: 2140843
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -328,7 +356,7 @@ changyan:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
+baidushare: true
 ##  type: button
 
 # Share
@@ -406,8 +434,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  app_id: KJeIMmlWkmkd1cc47GgUpfou-gzGzoHsz
+  app_key: f9axqvwsWGn3ICvU79WF9jY5
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -456,6 +484,12 @@ calendar:
   maxResults: 250
 
 # Algolia Search
+algolia: 
+  applicationID: 'IQQXND51OD'
+  apiKey: 'cfa6ff0fb0e8480cf3603683120ac3fa'
+  adminApiKey: 'f63a5d94e36943ac018baf5554e3a1e6'
+  indexName: 'personal keys'
+  chunkSize: 5000
 algolia_search:
   enable: false
   hits:
@@ -465,25 +499,55 @@ algolia_search:
     hits_empty: "We didn't find any results for the search: ${query}"
     hits_stats: "${hits} results found in ${time} ms"
 
-
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # ---------------------------------------------------------------
 # Tags Settings
 # ---------------------------------------------------------------
-# External URL with BASE64 encrypt & decrypt
+
+# External URL with BASE64 encrypt & decrypt.
 # Usage: {% exturl text url "title" %}
 # Alias: {% extlink text url "title" %}
 exturl: false
+
+# Note tag (bs-callout).
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+  style: simple
+  icons: false
+  border_radius: 3
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+
+# Label tag.
+label: true
+
+# Tabs tag.
+tabs:
+  enable: true
+  transition:
+    tabs: false
+    labels: true
+  border_radius: 0
 
 
 #! ---------------------------------------------------------------
@@ -518,7 +582,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: ture
 
 # three_waves
 three_waves: false
@@ -622,4 +686,6 @@ js: js
 images: images
 
 # Theme version
-version: 5.1.1
+version: 5.1.2
+
+
