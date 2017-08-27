@@ -236,7 +236,7 @@ post_copyright:
 # ---------------------------------------------------------------
 
 # Reduce padding / margin indents on devices with narrow width.
-mobile_layout_economy: false
+mobile_layout_economy: true
 
 # Android Chrome header panel color ($black-deep).
 android_chrome_color: "#222"
@@ -281,7 +281,7 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: 
 
   # Font settings for posts
   # Fallback to `global` font settings.
@@ -294,14 +294,14 @@ font:
   # The `size` option use `px` as unit
   logo:
     external: true
-    family:
-    size:
+    family: 
+    size: 
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
-    size:
+    family: PT Mono
+    size: 
 
 
 # ---------------------------------------------------------------
