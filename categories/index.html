@@ -84,12 +84,10 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="技术,程序,代码" />
 
 
 
-
-  
 
 
   <link rel="alternate" href="/atom.xml" title="J's BLOG" type="application/atom+xml" />
@@ -132,11 +130,11 @@
       author: '博主'
     },
     algolia: {
-      applicationID: 'IQQXND51OD',
-      apiKey: 'cfa6ff0fb0e8480cf3603683120ac3fa',
-      indexName: 'personal keys',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: "",
+      labels: ""
     }
   };
 </script>
@@ -392,7 +390,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -707,7 +705,7 @@
     var isfetched = false;
     var isXml = true;
     // Search DB path;
-    var search_path = "";
+    var search_path = "search.xml";
     if (search_path.length === 0) {
       search_path = "search.xml";
     } else if (/json$/i.test(search_path)) {
