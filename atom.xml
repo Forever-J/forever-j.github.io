@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://forever-j.com/"/>
-  <updated>2017-09-09T13:38:03.789Z</updated>
+  <updated>2017-09-09T14:29:23.556Z</updated>
   <id>http://forever-j.com/</id>
   
   <author>
@@ -20,33 +20,48 @@
     <link href="http://forever-j.com/2017/09/09/%E5%BC%80%E5%AD%A6%E4%BA%86/"/>
     <id>http://forever-j.com/2017/09/09/开学了/</id>
     <published>2017-09-09T13:38:03.000Z</published>
-    <updated>2017-09-09T13:38:03.789Z</updated>
+    <updated>2017-09-09T14:29:23.556Z</updated>
+    
+    <content type="html"><![CDATA[<p>来到上海半个多月了，一切事情算是有了结果，生活也应该渐渐稳定了。</p>
+<p>我从来都不愿去诉说自己悲惨的生活和各式的遭遇，也不敢夸大自己付出了多少努力，有多少委屈。我只是一直以来都清醒地认识到这就是生活，生活从来都是不易的。我时刻记住这一点，并尽力摆脱自怜想法。很多时候，的确是很难过了，累的不想做一切事，可是就这么静静看着时间流逝，也觉得自己的罪过又更深了。<br>其实我知道，这一切根本不算什么，我从未逼自己去达到某一个极限。我知道很多事情，但我尽量避免再去深究过多的东西，我不再想去发现这个世界的本质了，我怕我发现之后就再也不能好好生活了。就如同那些早早死去的诗人们，他们一定是发现了什么，于是利用死亡来解脱。可是我还不能死，也不想死。<br>基于这一点，在起伏不定的情绪中挣扎起来后，我只好又想办法如何能够活下去，这常常又让我感到无比的悲哀。我又是一个如此纠结的人，我又想活得有尊严一点，经历那些屈辱的地方和事情，我不能忍受。</p>
+]]></content>
     
     <summary type="html">
     
+      &lt;p&gt;来到上海半个多月了，一切事情算是有了结果，生活也应该渐渐稳定了。&lt;/p&gt;
+&lt;p&gt;我从来都不愿去诉说自己悲惨的生活和各式的遭遇，也不敢夸大自己付出了多少努力，有多少委屈。我只是一直以来都清醒地认识到这就是生活，生活从来都是不易的。我时刻记住这一点，并尽力摆脱自怜想法。很多时候
+    
     </summary>
     
+      <category term="随笔" scheme="http://forever-j.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="学校" scheme="http://forever-j.com/tags/%E5%AD%A6%E6%A0%A1/"/>
     
   </entry>
   
   <entry>
-    <title>html中name与id的区别</title>
+    <title>html中name、id、class的区别</title>
     <link href="http://forever-j.com/2017/08/28/html%E4%B8%ADname%E4%B8%8Eid%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <id>http://forever-j.com/2017/08/28/html中name与id的区别/</id>
     <published>2017-08-28T10:52:40.000Z</published>
-    <updated>2017-09-09T13:40:10.546Z</updated>
+    <updated>2017-09-09T14:03:22.415Z</updated>
     
     <content type="html"><![CDATA[<p>name 属性用于在 JavaScript 中对元素进行引用，或者在表单提交之后，对表单数据进行引用。</p>
-<p>html的name和id可以类比身份证的姓名和身份证编号<br>编号id具有唯一性，一个id只出现一次。<br>名称name具备可重复性，可以多次出现。<br>在css中两者都具备识别html元素的作用，name用点号.表示，id用井号#<br>一般name用于通用多次出现元素的样式定义，id用于唯一性元素样式定义。<br>在表单当中，由于有些控件具备多元素特性，例如radio checkbox等，使用id不便于表单数据的提交，此外浏览器会根据name来设定发送到服务器的request，因此在表单当中，用name来提交数据。<br>当然，在实际的html中，也完全可以不用id，用单独的class也可以起到代替id的作用。但是在js中，是无法通过class直接后去html元素的， 定义id便于相关操作。</p>
+<p>html的name和id可以类比身份证的姓名和身份证编号<br>编号id具有唯一性，一个id只出现一次。<br>名称name具备可重复性，可以多次出现。<br>在css中两者都具备识别html元素的作用，name用点号.表示，id用井号#<br>一般name用于通用多次出现元素的样式定义，id用于唯一性元素样式定义。<a id="more"></a><br>在表单当中，由于有些控件具备多元素特性，例如radio checkbox等，使用id不便于表单数据的提交，此外浏览器会根据name来设定发送到服务器的request，因此在表单当中，用name来提交数据。<br>当然，在实际的html中，也完全可以不用id，用单独的class也可以起到代替id的作用。但是在js中，是无法通过class直接后去html元素的， 定义id便于相关操作。</p>
+<p>id要符合标识的要求，比如大小写敏感，最好不要包含下划线（因为不兼容CSS）。而name基本上没有什么要求，甚至可以 用数字。table、tr、td、div、p、span、h1、li等元素一般用id。与表单相关的元素也可以赋ID值,  但为这些元素赋ID值的时候引用这些元素的方法就要变一下了，具体的如下：<br>赋name时引用元素的方式:  document.formName.inputName或document.frames(“frameName”)<br>赋id时引用元素的方式:  document.all.inputID或document.all.frameID<br>除去与表单相关的元素，只能赋id不能赋name，这些元素有body、li、a、table、tr、td、th、p、div、span、pre、dl、dt、dd、font、b等等<br>对于name和class来说意义是一样的。但是name主要是提交表单用的 ，而class是设置标签的类，用于指定元素属于何种样式的类，主要用来设置css样式的。但两种都可以用来识别css，推荐除了表单外都用class。</p>
+<p>name的用途<br>    用途1: 主要是用于获取提交表单的某表单域信息， 作为可与服务器交互数据的HTML元素的服务器端的标示，比如input、select、textarea、框架元素(iframe、frame、 window的名字，用于在其他frame或window指定target ) 和button等，这些元素都与表单(框架元素作用于form的target)提交有关，浏 览器会根据name来设定发送到服务器的request， 在表单的接收页面只接收有name的元素,  所以赋ID的元素通过表单是接收不到值的。 我们可以在服务器端根据其Name通过Request.Params取得元素提交的值。在form里面，如果不指定Name，就不会发送到服务器端 。<br>    用途2: HTML元素Input type=’radio’分组，我们知道radio button控件在同一个分组类，check操作是mutex的，同一时间只能选中一个radio，这个分组就是根据相同的Name属性来实现的。<br>    用途3: 建立页面中的锚点，我们知道<a href="URL">link</a>是获得一个页面超级链接，如果不用href属性，而改用Name，如：<a name="PageBottom"></a>，我们就获得了一个页面锚点。<br>    用途4: 作为对象的Identity，如Applet、Object、Embed等元素。比如在Applet对象实例中，我们将使用其Name来引用该对象。<br>    用途5: 在IMG元素和MAP元素之间关联的时候，如果要定义IMG的热点区域，需要使用其属性usemap，使usemap=”#name”(被关联的MAP元素的Name)。<br>    用途6: 某些特定元素的属性，如attribute，meta和param。例如为Object定义参数<param name="appletParameter" value="value">或Meta中<meta name="Author" content="Dave Raggett">。<br>    当然HTML元素的Name属性在页面中也可以起那么一点ID的作用，因为在DHTML对象树中，我们可 以使用document.getElementsByName来获取一个包含页面中所有指定Name元素的对象数组。Name属性还有一个问题，当我们动 态创建可包含Name属性的元素时，不能简单的使用赋值element.name = “…”来添加其Name，而必须在创建Element时，使用document.createElement(‘<element name="myName"></element>‘)为元素添加Name属性。</p>
 <ul>
 <li><a href="https://wenku.baidu.com/view/a3fcdc976bec0975f465e2c4.html" target="_blank" rel="external">html中name与id的区别</a></li>
+<li><a href="http://www.cnblogs.com/polk6/archive/2013/05/28/3101571.html" target="_blank" rel="external">HTML name、id、class 的区别</a></li>
+<li><a href="http://afunti.iteye.com/blog/988562" target="_blank" rel="external">id name class 区别</a></li>
 </ul>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;name 属性用于在 JavaScript 中对元素进行引用，或者在表单提交之后，对表单数据进行引用。&lt;/p&gt;
-&lt;p&gt;html的name和id可以类比身份证的姓名和身份证编号&lt;br&gt;编号id具有唯一性，一个id只出现一次。&lt;br&gt;名称name具备可重复性，可以多次出现。&lt;b
+&lt;p&gt;html的name和id可以类比身份证的姓名和身份证编号&lt;br&gt;编号id具有唯一性，一个id只出现一次。&lt;br&gt;名称name具备可重复性，可以多次出现。&lt;br&gt;在css中两者都具备识别html元素的作用，name用点号.表示，id用井号#&lt;br&gt;一般name用于通用多次出现元素的样式定义，id用于唯一性元素样式定义。
     
     </summary>
     
@@ -123,11 +138,10 @@
     <link href="http://forever-j.com/2017/08/24/MIME%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C/"/>
     <id>http://forever-j.com/2017/08/24/MIME参考手册/</id>
     <published>2017-08-23T18:13:57.000Z</published>
-    <updated>2017-08-27T12:57:46.294Z</updated>
+    <updated>2017-09-09T14:30:35.399Z</updated>
     
     <content type="html"><![CDATA[<p>MIME (Multipurpose Internet Mail Extensions) 是描述消息内容类型的因特网标准。<br>MIME 消息能包含文本、图像、音频、视频以及其他应用程序专用的数据。</p>
-<h1 id="一、"><a href="#一、" class="headerlink" title="一、"></a>一、</h1><p>首先，我们要了解浏览器是如何处理内容的。在浏览器中显示的内容有 HTML、有 XML、有 GIF、还有 Flash ……那么，浏览器是如何区分它们，决定什么内容用什么形式来显示呢？答案是 MIME Type，也就是该资源的媒体类型。</p>
-<p>媒体类型通常是通过 HTTP 协议，由 Web 服务器告知浏览器的，更准确地说，是通过 Content-Type 来表示的，例如:</p>
+<h1 id="一、"><a href="#一、" class="headerlink" title="一、"></a>一、</h1><p>首先，我们要了解浏览器是如何处理内容的。在浏览器中显示的内容有 HTML、有 XML、有 GIF、还有 Flash ……那么，浏览器是如何区分它们，决定什么内容用什么形式来显示呢？答案是 MIME Type，也就是该资源的媒体类型。<br><a id="more"></a><br>媒体类型通常是通过 HTTP 协议，由 Web 服务器告知浏览器的，更准确地说，是通过 Content-Type 来表示的，例如:</p>
 <p>Content-Type: text/HTML</p>
 <p>表示内容是 text/HTML 类型，也就是超文本文件。为什么是“text/HTML”而不是“HTML/text”或者别的什么？MIME Type 不是个人指定的，是经过 ietf 组织协商，以 RFC 的形式作为建议的标准发布在网上的，大多数的 Web 服务器和用户代理都会支持这个规范 (顺便说一句，Email 附件的类型也是通过 MIME Type 指定的)。</p>
 <p>通常只有一些在互联网上获得广泛应用的格式才会获得一个 MIME Type，如果是某个客户端自己定义的格式，一般只能以 application/x- 开头。</p>
@@ -149,7 +163,7 @@
     <summary type="html">
     
       &lt;p&gt;MIME (Multipurpose Internet Mail Extensions) 是描述消息内容类型的因特网标准。&lt;br&gt;MIME 消息能包含文本、图像、音频、视频以及其他应用程序专用的数据。&lt;/p&gt;
-&lt;h1 id=&quot;一、&quot;&gt;&lt;a href=&quot;#一、&quot; class=
+&lt;h1 id=&quot;一、&quot;&gt;&lt;a href=&quot;#一、&quot; class=&quot;headerlink&quot; title=&quot;一、&quot;&gt;&lt;/a&gt;一、&lt;/h1&gt;&lt;p&gt;首先，我们要了解浏览器是如何处理内容的。在浏览器中显示的内容有 HTML、有 XML、有 GIF、还有 Flash ……那么，浏览器是如何区分它们，决定什么内容用什么形式来显示呢？答案是 MIME Type，也就是该资源的媒体类型。&lt;br&gt;
     
     </summary>
     
