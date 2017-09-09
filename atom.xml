@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://forever-j.com/"/>
-  <updated>2017-08-28T11:09:23.571Z</updated>
+  <updated>2017-09-09T13:38:03.789Z</updated>
   <id>http://forever-j.com/</id>
   
   <author>
@@ -16,11 +16,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>开学了</title>
+    <link href="http://forever-j.com/2017/09/09/%E5%BC%80%E5%AD%A6%E4%BA%86/"/>
+    <id>http://forever-j.com/2017/09/09/开学了/</id>
+    <published>2017-09-09T13:38:03.000Z</published>
+    <updated>2017-09-09T13:38:03.789Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>html中name与id的区别</title>
     <link href="http://forever-j.com/2017/08/28/html%E4%B8%ADname%E4%B8%8Eid%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
     <id>http://forever-j.com/2017/08/28/html中name与id的区别/</id>
     <published>2017-08-28T10:52:40.000Z</published>
-    <updated>2017-08-28T11:09:23.571Z</updated>
+    <updated>2017-09-09T13:40:10.546Z</updated>
     
     <content type="html"><![CDATA[<p>name 属性用于在 JavaScript 中对元素进行引用，或者在表单提交之后，对表单数据进行引用。</p>
 <p>html的name和id可以类比身份证的姓名和身份证编号<br>编号id具有唯一性，一个id只出现一次。<br>名称name具备可重复性，可以多次出现。<br>在css中两者都具备识别html元素的作用，name用点号.表示，id用井号#<br>一般name用于通用多次出现元素的样式定义，id用于唯一性元素样式定义。<br>在表单当中，由于有些控件具备多元素特性，例如radio checkbox等，使用id不便于表单数据的提交，此外浏览器会根据name来设定发送到服务器的request，因此在表单当中，用name来提交数据。<br>当然，在实际的html中，也完全可以不用id，用单独的class也可以起到代替id的作用。但是在js中，是无法通过class直接后去html元素的， 定义id便于相关操作。</p>
@@ -36,6 +50,10 @@
     
     </summary>
     
+      <category term="前端" scheme="http://forever-j.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="html" scheme="http://forever-j.com/tags/html/"/>
     
   </entry>
   
