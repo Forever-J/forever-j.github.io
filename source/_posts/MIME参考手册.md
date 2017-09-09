@@ -7,7 +7,7 @@ MIME (Multipurpose Internet Mail Extensions) 是描述消息内容类型的因�
 MIME 消息能包含文本、图像、音频、视频以及其他应用程序专用的数据。
 # 一、
 首先，我们要了解浏览器是如何处理内容的。在浏览器中显示的内容有 HTML、有 XML、有 GIF、还有 Flash ……那么，浏览器是如何区分它们，决定什么内容用什么形式来显示呢？答案是 MIME Type，也就是该资源的媒体类型。
-
+<!-- more -->
 媒体类型通常是通过 HTTP 协议，由 Web 服务器告知浏览器的，更准确地说，是通过 Content-Type 来表示的，例如:
 
 Content-Type: text/HTML
